@@ -1,0 +1,218 @@
+body {
+    font-family: 'Montserrat, sans-serif';
+}
+
+h1 {
+    font-family: 'Montserrat, sans-serif';
+    font-size: 3.5rem;
+    line-height: 1.3;
+    font-weight: 900;
+}
+
+h2 
+{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.3;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5%;
+    font-size: 1.7rem;
+    line-height: 1.3;
+    font-weight: 920;
+}
+
+
+.item {
+    margin-left: 60%;
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    margin-bottom: 0px;
+
+}
+
+.head {
+    margin-left: 0px;
+}
+
+
+
+.container-fluid {
+    padding: 3% 15%;
+    padding-bottom: 8%;
+    color: white;
+}
+
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+
+}
+
+
+.nav-item {
+    padding: 0 18px;
+}
+
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.ticon {
+
+    margin-right: 5px;
+}
+
+.btnd {
+    margin: 5% 3% 5% 0;
+}
+
+.img {
+    width: 23%;
+    transform: rotate(25deg);
+    position: absolute;
+
+}
+
+.col-lg-4 {
+    margin: auto;
+    padding: 10px;
+}
+
+
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+
+}
+
+.ft {
+    width: 55%;
+    margin: 8% auto;
+
+    margin-bottom: 35%;
+    justify-content: center;
+    color: grey;
+}
+
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 3%;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+
+
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 0 3% 3% 3%;
+}
+
+.pimg {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.control1 {
+    margin-right: 50px;
+}
+
+.control1 {
+    margin-left: 50px;
+}
+
+.card {
+    margin-top: 50px;
+
+
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+
+    .img {
+        transform: rotate(0);
+        position: static;
+        width: 60%;
+    }
+
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: larger;
+
+
+}
+
+.foot {
+    width: 35%;
+
+    text-align: center;
+    margin: 0 auto 10px auto;
+    padding-bottom: 10px;
+    font-size: 2rem;
+
+}
+
+.footbtn {
+    padding-top: 10px;
+    margin: 10px;
+}
+
+#footer {
+    text-align: center;
+    margin: 50px;
+    font-family: "Ubuntu";
+
+}
+
+.fticon {
+    padding: 1.5%;
+}
